@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+h1{background-color: cyan;color: rgb(255, 0, 0);}
+#showsketch{float: right;}
+canvas{border: 5px solid;animation-name: soham;animation-duration: 3s;animation-iteration-count: infinite;}
+@keyframes soham{
+    from{box-shadow: 1px 1px 50px greenyellow;}
+    to{box-shadow: 1px 1px 50px rgb(0, 255, 234);}
+}
